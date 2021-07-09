@@ -1,4 +1,4 @@
-package fr.lernejo.navy_battle.module;
+package fr.lernejo.navy_battle.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -31,14 +31,5 @@ public class ServerInfo {
 
     public String getMessage() {
         return message;
-    }
-
-    @Override
-    public String toString() {
-        return "ServerInfo {" +
-            "id='" + id + '\'' +
-            ", url='" + url + '\'' +
-            ", message='" + message + '\'' +
-            '}';
     }
 }
